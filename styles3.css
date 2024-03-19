@@ -1,0 +1,55 @@
+.text_blocks_base {
+  align-items: center;
+  background-color: lightgray;
+}
+.text_block {
+  margin: 10px 10px;
+  padding: 10px;
+  width: 600px;
+  height: auto;
+}
+.text_block_main {
+  margin: 5px;
+}
+.green_text_block {
+    background-color: rgb(9, 113, 99);
+  }
+  .green_text_block span {
+    margin: 0 0 0 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+  }
+  
+  .green_text_block_head {
+    background-color: rgb(5, 72, 63);
+    padding: 5px;
+  }
+  .green_text_block p {
+    padding: 5px 10px 10px 15px;
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    text-wrap: pre-wrap;
+    word-spacing: 0.1em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 100;
+  }
+  
+  .notes p {
+    font-size: 10px;
+  }
+  .notes {
+    margin: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: orange;
+  }
+  a:hover {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
